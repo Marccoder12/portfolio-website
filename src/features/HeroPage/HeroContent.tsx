@@ -20,7 +20,7 @@ export const HeroContent = () => {
               Hello, I'm
             </span>
             <span className="text-4xl font-bold text-blue-300 text-shadow-[0px_2px_2px] text-shadow-indigo-800">
-              Mark Nguh Ebonkimuyam
+              Mark Nguh
             </span>
           </div>
           <div className="space-x-4">
@@ -28,8 +28,8 @@ export const HeroContent = () => {
             <ReactTyped
               className="text-4xl font-bold text-blue-400 text-shadow-[0px_1px_1px] text-shadow-indigo-400"
               strings={[
-                "Front-end Web Developer",
                 "Game Programmer",
+                "Front-end Web Developer",
                 "3D Modeller",
               ]}
               typeSpeed={30}
