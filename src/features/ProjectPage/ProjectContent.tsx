@@ -13,7 +13,7 @@ export const ProjectContent = () => {
                 Voxel Terrain System
               </span>
               <div className="relative w-full h-full">
-                <div className="p-5 w-full h-full transition-all absolute hover:p-2 hover:transition-all shadow-xl">
+                <div className="p-5 w-full h-full transition-all duration-300 absolute hover:p-2 hover:transition-all shadow-xl">
                   <img
                     src="/assets/projects-screenshots/project2.gif"
                     // onPlaying={}
@@ -31,11 +31,11 @@ export const ProjectContent = () => {
             </div>
             <div className="w-full h-full transition-all relative  shadow-xl">
               <span className="text-stone-300 absolute -top-7 text-2xl font-semibold">
-                OpenGL Graphics Project{" "}
+                OpenGL Graphics Project
                 <span className="text-green-500">(C++ & GLSL)</span>
               </span>
               <div className="w-full h-full relative flex items-center justify-center">
-                <div className="absolute w-auto h-full p-5 hover:p-2 hover:transition-all">
+                <div className="absolute w-auto h-full transition-all duration-300 p-5 hover:p-2 hover:transition-all">
                   <img
                     src="/assets/projects-screenshots/project.gif"
                     className="object-contain w-full h-full"
@@ -60,7 +60,7 @@ export const ProjectContent = () => {
                 <span className="text-stone-300 absolute text-2xl -top-5 left-100 font-semibold">
                   Finetask<span className="text-green-500">(In-Dev)</span>
                 </span>
-                <div className="p-4 w-full h-full transition-all relative shadow-xl rounded-2xl hover:p-0 hover:transition-all">
+                <div className="p-4 w-full h-full transition-all duration-300 relative shadow-xl rounded-2xl hover:p-0 hover:transition-all">
                   <img
                     src="/assets/projects-screenshots/finetask.png"
                     className="object-contain w-full h-full"
@@ -78,7 +78,7 @@ export const ProjectContent = () => {
                 VerveTask
               </span>
               <div className="w-full h-full">
-                <div className="p-4 w-full h-full transition-all shadow-xl rounded-2xl hover:p-1 hover:transition-all">
+                <div className="p-4 w-full h-full transition-all duration-300 shadow-xl rounded-2xl hover:p-1 hover:transition-all">
                   <img
                     src="/assets/projects-screenshots/vervetask_1.png"
                     className="object-contain h-full w-full"
@@ -97,7 +97,7 @@ export const ProjectContent = () => {
           <div className="flex h-full w-full relative mt-12 p-2">
             <div className="grid grid-rows-1 w-full relative items-center">
               <div className="relative w-full h-full">
-                <div className="p-5 w-full h-full transition-all absolute hover:p-2 hover:transition-all shadow-xl">
+                <div className="p-5 w-full h-full transition-all duration-300 absolute hover:p-2 hover:transition-all shadow-xl">
                   <img
                     src="assets/phone_stand_2.png"
                     className="object-contain w-full h-full"
@@ -114,7 +114,7 @@ export const ProjectContent = () => {
             </div>
             <div className="w-full h-full transition-all relative  shadow-xl">
               <div className="w-full h-full relative flex items-center justify-center">
-                <div className="absolute w-auto h-full p-5 hover:p-2 hover:transition-all">
+                <div className="absolute w-auto transition-all duration-300 h-full p-5 hover:p-2 hover:transition-all">
                   <img
                     src="/assets/ANNOUCEMENT.png"
                     className="object-contain w-full h-full"
@@ -127,7 +127,7 @@ export const ProjectContent = () => {
             </div>
             <div className="w-full h-full transition-all relative  shadow-xl">
               <div className="w-full h-full relative flex items-center justify-center">
-                <div className="absolute w-auto h-full p-5 hover:p-2 hover:transition-all">
+                <div className="absolute w-auto transition-all duration-300 h-full p-5 hover:p-2 hover:transition-all">
                   <img
                     src="/assets/projects-screenshots/airpods-render.jpg"
                     className="object-contain w-full h-full"
