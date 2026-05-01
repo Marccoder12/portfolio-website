@@ -31,7 +31,8 @@ export const ProjectContent = () => {
             </div>
             <div className="w-full h-full transition-all relative  shadow-xl">
               <span className="text-stone-300 absolute -top-7 text-2xl font-semibold">
-                Vehicle System and Character Controller
+                OpenGL Graphics Project{" "}
+                <span className="text-green-500">(C++ & GLSL)</span>
               </span>
               <div className="w-full h-full relative flex items-center justify-center">
                 <div className="absolute w-auto h-full p-5 hover:p-2 hover:transition-all">
