@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 export const HeroContent = () => {
   return (
