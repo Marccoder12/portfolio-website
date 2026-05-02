@@ -4,6 +4,7 @@ import { MainPage } from "./features/MainLayout/MainPage";
 import { HeroContent } from "./features/HeroPage/HeroContent";
 import { ProjectContent } from "./features/ProjectPage/ProjectContent";
 import { ContactMeContent } from "./features/ContactMePage/ContactMeContent";
+import { ToastContainer } from "react-toastify";
 // Your main App
 function App() {
   return (
@@ -15,6 +16,12 @@ function App() {
           <Route element={<ContactMeContent />} path="contact" />
         </Route>
       </Routes>
+      <ToastContainer
+        position="top-right"
+        autoClose={4000}
+        hideProgressBar={false}
+        newestOnTop={true}
+      />
     </BrowserRouter>
   );
 }
