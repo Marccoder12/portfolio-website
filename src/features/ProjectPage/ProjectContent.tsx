@@ -19,7 +19,10 @@ export const ProjectContent = () => {
                     // onPlaying={}
                     className="object-contain w-full h-full"
                     onClick={() => {
-                      console.log("go to live demo of [Fine task Live]");
+                      window.open(
+                        "https://github.com/Marccoder12/Farm_Terrain_Generator",
+                        "_blank",
+                      );
                     }}
                   />
                   {/* <img
@@ -40,6 +43,10 @@ export const ProjectContent = () => {
                     src="/assets/projects-screenshots/project.gif"
                     className="object-contain w-full h-full"
                     onClick={() => {
+                      window.open(
+                        "https://github.com/Marccoder12/OpenGL-Project",
+                        "_blank",
+                      );
                       console.log("go to live demo of [Verve task Live]");
                     }}
                   />
@@ -65,7 +72,10 @@ export const ProjectContent = () => {
                     src="/assets/projects-screenshots/finetask.png"
                     className="object-contain w-full h-full"
                     onClick={() => {
-                      console.log("go to live demo of [Fine task Live]");
+                      window.open(
+                        "https://react-app-ivory-five-81.vercel.app/",
+                        "_blank",
+                      );
                     }}
                   />
                 </div>
@@ -83,7 +93,14 @@ export const ProjectContent = () => {
                     src="/assets/projects-screenshots/vervetask_1.png"
                     className="object-contain h-full w-full"
                     onClick={() => {
-                      console.log("go to live demo of [Verve task Live]");
+                      window.open(
+                        "https://verve-task-app.vercel.app/",
+                        "_blank",
+                      );
+                      // window.open(
+                      //   "https://github.com/Marccoder12/verve-task-app/",
+                      //   "_blank",
+                      // );
                     }}
                   />
                 </div>

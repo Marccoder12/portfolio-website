@@ -115,10 +115,7 @@ export const ContactMeContent = () => {
       <button
         className="p-2 px-10 bg-blue-700 hover:bg-blue-600 border-none hover:transition-all hover:border-blue-800 hover:border-2 transition-all cursor-pointer flex gap-x-2 rounded-xl text-white font-semibold"
         disabled={status === "sending" || isSent}
-        onClick={() => {
-          // handleSubmit
-          toast.success("This Test");
-        }}
+        onClick={handleSubmit}
       >
         {status === "sending"
           ? "Sending Message..."
