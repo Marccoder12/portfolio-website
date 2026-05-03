@@ -73,16 +73,12 @@ export const ProjectContent = () => {
                     className="object-contain w-full h-full"
                     onClick={() => {
                       window.open(
-                        "https://react-app-ivory-five-81.vercel.app/",
+                        "https://github.com/Marccoder12/react-app/",
                         "_blank",
                       );
                     }}
                   />
                 </div>
-                {/* <img
-                  src="/assets/projects-screenshots/portfolio.png"
-                  className="p-4 w-full object-contain h-full rounded-2xl"
-                  /> */}
               </div>
               <span className="text-stone-300 absolute -top-5 right-40 text-2xl font-semibold">
                 VerveTask
@@ -93,14 +89,11 @@ export const ProjectContent = () => {
                     src="/assets/projects-screenshots/vervetask_1.png"
                     className="object-contain h-full w-full"
                     onClick={() => {
+
                       window.open(
-                        "https://verve-task-app.vercel.app/",
+                        "https://github.com/Marccoder12/verve-task-app/",
                         "_blank",
                       );
-                      // window.open(
-                      //   "https://github.com/Marccoder12/verve-task-app/",
-                      //   "_blank",
-                      // );
                     }}
                   />
                 </div>
@@ -118,14 +111,7 @@ export const ProjectContent = () => {
                   <img
                     src="assets/phone_stand_2.png"
                     className="object-contain w-full h-full"
-                    onClick={() => {
-                      console.log("go to live demo of [Fine task Live]");
-                    }}
                   />
-                  {/* <img
-                  src="/assets/projects-screenshots/portfolio.png"
-                  className="p-4 w-full object-contain h-full rounded-2xl"
-                  /> */}
                 </div>
               </div>
             </div>
@@ -135,9 +121,6 @@ export const ProjectContent = () => {
                   <img
                     src="/assets/ANNOUCEMENT.png"
                     className="object-contain w-full h-full"
-                    onClick={() => {
-                      console.log("go to live demo of [Verve task Live]");
-                    }}
                   />
                 </div>
               </div>
@@ -148,9 +131,6 @@ export const ProjectContent = () => {
                   <img
                     src="/assets/projects-screenshots/airpods-render.jpg"
                     className="object-contain w-full h-full"
-                    onClick={() => {
-                      console.log("go to live demo of [Verve task Live]");
-                    }}
                   />
                 </div>
               </div>
